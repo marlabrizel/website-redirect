@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    public_suffix (3.0.3)
+    rack (2.0.6)
+    rack-canonical-host (0.2.3)
+      addressable (> 0, < 3)
+      rack (>= 1.0.0, < 3)
+    rack-ssl (1.4.1)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  rack-canonical-host
+  rack-ssl
+
+BUNDLED WITH
+   1.16.1
